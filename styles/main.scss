@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'global';
+
+
+
+
+.header {
+    .navbar {
+        .navbar-nav {
+           .mega-dropdown {
+               .dropdown-menu{
+                width: 100%;
+               }
+           } 
+        }
+    }
+}
