@@ -50,6 +50,7 @@
 
 
 .rooms {
+    position: relative;
     .carousel {
         height: 60vh !important;
         overflow: hidden;
@@ -69,4 +70,15 @@
         }
 
     }
+    .rooms-search {
+        z-index: 1;
+        position: absolute;
+        top: 30%;
+        left: 23%;
+        width: 60vw;
+        -webkit-border-radius:;
+        -moz-border-radius:;
+        -ms-border-radius:;
+        -o-border-radius:;
+}
 }

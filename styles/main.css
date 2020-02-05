@@ -5,7 +5,55 @@ html, body {
           box-sizing: border-box;
 }
 
-.header .navbar .navbar-nav .mega-dropdown .dropdown-menu {
+.header .navbar {
+  height: 5rem;
+}
+
+.header .navbar .navbar-nav .mega-dropdown .mega-menu {
+  overflow: hidden;
+  height: 50vh;
+  padding: 0;
   width: 100%;
+}
+
+.header .navbar .navbar-nav .mega-dropdown .sub-image {
+  width: 100%;
+}
+
+.header .navbar .navbar-nav .mega-dropdown .sub-image img {
+  width: 100%;
+  height: auto;
+}
+
+.rooms {
+  position: relative;
+}
+
+.rooms .carousel {
+  height: 60vh !important;
+  overflow: hidden;
+}
+
+.rooms .carousel .carousel-inner {
+  overflow: visible;
+}
+
+.rooms .carousel .carousel-inner .carousel-item > img {
+  left: 50%;
+  max-width: none !important;
+  min-height: 50vh;
+  min-width: 100%;
+  position: absolute;
+  top: 40vh;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.rooms .rooms-search {
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  left: 23%;
+  width: 60vw;
 }
 /*# sourceMappingURL=main.css.map */
