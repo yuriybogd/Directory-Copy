@@ -6,12 +6,67 @@
 
 .header {
     .navbar {
+        height: 5rem;
+
         .navbar-nav {
-           .mega-dropdown {
-               .dropdown-menu{
-                width: 100%;
-               }
-           } 
+            .mega-dropdown {
+                .mega-menu {
+                    overflow: hidden;
+                    height: 50vh;
+                    padding: 0;
+                    width: 100%;
+
+                    .sub-menu {
+                        h6 {
+                            
+                        }
+                        
+                        .megamenu-list {
+                            li {
+                                
+                                a:hover {
+
+                                }
+                            }
+                            
+                        }
+                        
+                    }
+                }
+                .sub-image {
+                    width: 100%;
+                    
+                    
+                    img {
+                        width: 100%;
+                        height: auto;
+                        
+                    }
+                }
+            }
         }
+    }
+}
+
+
+.rooms {
+    .carousel {
+        height: 60vh !important;
+        overflow: hidden;
+
+        .carousel-inner {
+            overflow: visible;
+
+            .carousel-item>img {
+                left: 50%;
+                max-width: none !important;
+                min-height: 50vh;
+                min-width: 100%;
+                position: absolute;
+                top: 40vh;
+                transform: translate(-50%, -50%);
+            }
+        }
+
     }
 }
