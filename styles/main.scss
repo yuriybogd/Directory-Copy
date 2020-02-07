@@ -17,30 +17,27 @@
                     width: 100%;
 
                     .sub-menu {
-                        h6 {
-                            
-                        }
-                        
+                        h6 {}
+
                         .megamenu-list {
                             li {
-                                
-                                a:hover {
 
-                                }
+                                a:hover {}
                             }
-                            
+
                         }
-                        
+
                     }
                 }
+
                 .sub-image {
                     width: 100%;
-                    
-                    
+
+
                     img {
                         width: 100%;
                         height: auto;
-                        
+
                     }
                 }
             }
@@ -51,6 +48,7 @@
 
 .rooms {
     position: relative;
+
     .carousel {
         height: 60vh !important;
         overflow: hidden;
@@ -70,15 +68,18 @@
         }
 
     }
+
     .rooms-search {
         z-index: 1;
         position: absolute;
         top: 30%;
         left: 23%;
         width: 60vw;
-        -webkit-border-radius:;
-        -moz-border-radius:;
-        -ms-border-radius:;
-        -o-border-radius:;
+        -webkit-border-radius: ;
+        -moz-border-radius: ;
+        -ms-border-radius: ;
+        -o-border-radius: ;
+    }
 }
-}
+
+.
